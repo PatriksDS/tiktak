@@ -39,15 +39,15 @@ def reset():
     btn8['text']=''
     btn9['text']=''
 
-btn1=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn1),font=('Helvica'))
-btn2=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn2),font=('Helvica'))
-btn3=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn3),font=('Helvica'))
-btn4=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn4),font=('Helvica'))
-btn5=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn5),font=('Helvica'))
-btn6=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn6),font=('Helvica'))
-btn7=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn7),font=('Helvica'))
-btn8=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn8),font=('Helvica'))
-btn9=Button(mansLogs,text="",width=6,height=3,command=lambda:btnClick(btn9),font=('Helvica'))
+btn1=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn1),font=('Helvica'))
+btn2=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn2),font=('Helvica'))
+btn3=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn3),font=('Helvica'))
+btn4=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn4),font=('Helvica'))
+btn5=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn5),font=('Helvica'))
+btn6=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn6),font=('Helvica'))
+btn7=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn7),font=('Helvica'))
+btn8=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn8),font=('Helvica'))
+btn9=Button(mansLogs,text="",width=12,height=6,command=lambda:btnClick(btn9),font=('Helvica'))
 
 galvenaIzvelne=Menu(mansLogs)
 mansLogs.config(menu=galvenaIzvelne)
